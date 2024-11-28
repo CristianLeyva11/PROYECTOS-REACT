@@ -1,0 +1,36 @@
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputs-50{
+    width: calc(50% - 30px);
+}
+
+.inputs-50 input{
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: 1px solid black;
+
+}
+.boton{
+    display: flex;
+    justify-content: space-between;
+}
+.boton button{
+    width: calc(50% - 30px);
+    margin: 20px auto;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
